@@ -35,8 +35,8 @@ def run_pipeline(resume, jd):
     feedback = generate_feedback(missing, round(score * 100, 2))
 
     return {
-        "ATS Score": round(score * 100, 2),
-        "Matched": matched,
-        "Missing": missing,
-        "Feedback": feedback
+        "ATS Score": float(round(score * 100, 2)),
+        "Matched": list(map(str, matched)),
+        "Missing": list(map(str, missing)),
+        "Feedback": str(feedback)
     }
