@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+spacy
+sentence-transformers
+scikit-learn
+transformers
+torch
+streamlit
+requests

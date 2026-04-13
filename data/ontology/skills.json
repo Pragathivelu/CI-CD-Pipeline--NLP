@@ -1,0 +1,17 @@
+{
+  "python": ["python", "py"],
+  "machine learning": ["ml", "machine learning"],
+  "deep learning": ["deep learning", "neural networks"],
+  "nlp": ["nlp", "natural language processing"],
+  "tensorflow": ["tensorflow"],
+  "pytorch": ["pytorch"],
+  "sql": ["sql"],
+  "nosql": ["nosql", "mongodb"],
+  "docker": ["docker"],
+  "kubernetes": ["kubernetes"],
+  "api development": ["api", "rest api"],
+  "rag": ["rag", "retrieval augmented generation"],
+  "llm": ["llm", "large language models"],
+  "data engineering": ["etl", "pipelines"],
+  "cloud": ["aws", "azure", "gcp"]
+}
